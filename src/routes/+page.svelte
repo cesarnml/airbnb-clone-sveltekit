@@ -1,7 +1,12 @@
-<h1 class="text-3xl font-bold underline text-red-700">Hello world!</h1>
+<svelte:head>
+	<title>Airbnb</title>
+	<meta name="description" content="Airbnb clone" />
+</svelte:head>
+
+<h1 class="header">Hello Airbnb!</h1>
 
 <style lang="postcss">
-	:global(html) {
-		background-color: theme(colors.gray.100);
+	.header {
+		@apply text-rose-500 text-2xl;
 	}
 </style>
